@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(logoto.png);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(to bottom, darkblue, url(logoto.png)); /* Applied linear gradient */
+}

@@ -1,0 +1,216 @@
+.span {
+    display: inline-block;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 150px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    box-shadow: 0 10px 15px rgba(0, 1, 1, 0.2);
+    background-color: #f8f9fa;
+    position:absolute;                          
+    left: 2%;
+    text-align: left;
+    font-family: arial, sans-serif;
+    
+   
+    
+      
+}
+
+span.z{
+    display: inline-block;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    height: 150px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    box-shadow: 0 10px 15px rgba(0, 1, 1, 0.2);
+    background-color: #f8f9fa;
+    position:absolute;
+    left: 20%;
+    text-align: left;
+    font-family: arial, sans-serif;
+    
+    
+      
+}
+span.x{
+    display: inline-block;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    height: 150px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    box-shadow: 0 10px 15px rgba(0, 1, 1, 0.2);
+    background-color: #f8f9fa;
+    position:absolute;
+    left: 2%;
+    text-align: left;
+    font-family: arial, sans-serif;
+    bottom: 25.9rem;
+    
+    
+    
+      
+}
+
+span.s{
+    display: inline-block;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    height: 150px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    box-shadow: 0 10px 15px rgba(0, 1, 1, 0.2);
+    background-color: #f8f9fa;
+    position:absolute;
+    left: 20%;
+    text-align: left;
+    font-family: arial, sans-serif;
+    bottom: 25.9rem;
+    
+    
+      
+}
+
+    
+
+span.o{
+    display: inline-block;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    height: 400px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    
+    
+    position:absolute;
+    left: 40%;
+    text-align: left;
+    font-family: arial, sans-serif;
+    bottom: 24rem;
+    
+    
+    
+      
+}
+
+    
+span.recent{
+    display: inline-block;
+    width: 575px;
+    padding: 10px;
+    border-radius: 10px;
+    
+    height: 220px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    background-color: #f8f9fa;
+    box-shadow: 0 10px 15px rgba(0, 1, 1, 0.2);
+    position:absolute;
+    left: 2%;
+    text-align: left;
+    font-family: arial, sans-serif;
+    bottom:1rem;
+    
+    
+    
+      
+}
+span.reservation-histogram-container{
+    display: inline-block;
+    width: 850px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    height: 320px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    
+    box-shadow: 0 10px 15px rgba(0, 1, 1, 0.2);
+    position:absolute;
+    left: 45%;
+    text-align: left;
+    font-family: arial, sans-serif;
+    bottom:1rem;
+    
+    
+    
+      
+}
+
+span.admins{
+    display: inline-block;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    height: 150px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    box-shadow: 0 10px 15px rgba(0, 1, 1, 0.2);
+    background-color: #f8f9fa;
+    position:absolute;
+    left: 2%;
+    text-align: left;
+    font-family: arial, sans-serif;
+    bottom: 15.9rem;
+    
+    
+    
+      
+}
+
+span.users{
+    display: inline-block;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    height: 150px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    box-shadow: 0 10px 15px rgba(0, 1, 1, 0.2);
+    background-color: #f8f9fa;
+    position:absolute;
+    left: 20%;
+    text-align: left;
+    font-family: arial, sans-serif;
+    bottom: 15.9rem;
+    
+      
+}
+
+#vehiclePieChart {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    right: 15%; 
+}
+#brandPieChart {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 70%; 
+}
+.table-container {
+    max-height: 150px; /* Adjust the max-height as needed */
+    overflow-y: auto;
+}
+
+
+
+
+
+

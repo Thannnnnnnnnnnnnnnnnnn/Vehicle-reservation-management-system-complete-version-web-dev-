@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to right, black
+    , darkblue, blue, skyblue, white);
+
+}
+
+.container{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px black;
+    align-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 700px;
+    width: 500px;
+    top: 5rem;
+}
+
+.form-container input[type="text"]{
+    width: 94%;
+    border: 1px black;
+    padding: 15px;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    border: 1px solid #ccc;
+
+
+}
+.gender{
+    width: 94%;
+    border: 1px black;
+    padding: 15px;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,266 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: linear-gradient(to right, darkblue , skyblue,white ); /* Applied linear gradient */
+    
+}
+
+header {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    position: relative;
+    top: 10rem;
+    width: 500px;
+    padding: 20px;
+    border: 1px  black; /* Fixed border syntax */
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto; /* Center the container horizontally */
+    height: 400px; /* Adjusted height */
+    opacity: 0;
+    /* Initial opacity set to 0 */
+    animation: fadeIn 2s ease forwards;
+    /* Animation added */
+    box-shadow: 5px 10px black;
+}
+.container2 {
+    position: relative;
+    
+    width: 1565px;
+    padding: 20px;
+    border: 1px solid black; /* Fixed border syntax */
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto; /* Center the container horizontally */
+    height: 60px; /* Adjusted height */
+    opacity: 0;
+    /* Initial opacity set to 0 */
+    animation: fadeIn 2s ease forwards;
+    /* Animation added */
+    box-shadow: 5px 10px black;
+    
+}
+
+.span {
+    display: inline-block;
+    width: 748px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: 170px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    box-shadow: 5px 10px black;
+    /* Center the container horizontally */
+    position:relative;
+      
+}
+
+span.b{
+    display: inline-block;
+    width: 748px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: 150px;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    box-shadow: 5px 10px black;
+    /* Center the container horizontally */
+    position:relative;
+    left: 1%;
+      
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        /* Start from opacity 0 */
+        transform: translateY(20px);
+        /* Initial position below */
+    }
+    to {
+        opacity: 1;
+        /* End at opacity 1 */
+        transform: translateY(0);
+        /* Final position at center */
+    }
+}
+
+.container h2 {
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+.form-container {
+    text-align: left;
+}
+
+.form-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"] {
+    width: 92%;
+    padding: 10px;
+    margin: 0 8px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form-container input[type="submit"] {
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: px; /* There seems to be a typo here */
+    cursor: pointer;
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #4682b4;
+}
+
+.error {
+    color: red;
+}
+
+.wave {
+    background: white;
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 7em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 10s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 10s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+    25% {
+        transform: translateX(-25%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    75% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(1);
+    }
+}
+
+.back-to-home-button2 {
+    background-color: darkblue;
+    color: white;
+}
+
+.back-to-home-button:hover,
+.back-to-home-button2:hover,
+#register-button:hover {
+    background-color: skyblue;
+}
+
+.back-to-home-button,
+.back-to-home-button2 {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    background-color: transparent;
+    color: black; 
+    padding: px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+}
+/* Style for the vertical tab */
+.vertical-tab {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 240px; 
+    height: 100%;
+    background-color: white; 
+    color: blue;
+    padding: 10px; 
+    border: 1px solid black;
+    box-shadow: 5px 10px black;
+    border-radius: 10px;
+}
+.vertical-tab a {
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 1s;
+}
+.vertical-tab a:hover {
+    background-color: skyblue; 
+}
+.logo {
+    width: 50px;
+}
+
+.logotitle {
+    width: 100px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+
